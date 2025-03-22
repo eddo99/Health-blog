@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Health Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="featured-posts">
+        <h2>Featured Posts</h2>
+        <div class="posts">
+            <div class="post">
+                <h3>Healthy Eating for a Better Life</h3>
+                <p>Discover the power of nutrition in improving your overall health and wellness.</p>
+            </div>
+            <div class="post">
+                <h3>Fitness Tips for Beginners</h3>
+                <p>Learn the basics of starting a fitness routine and staying consistent.</p>
+            </div>
+            <div class="post">
+                <h3>Managing Stress Effectively</h3>
+                <p>Explore techniques to reduce stress and improve mental well-being.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <h2>Categories</h2>
+        <ul>
+            <li><a href="#">Nutrition</a></li>
+            <li><a href="#">Fitness</a></li>
+            <li><a href="#">Mental Health</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 Health Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
