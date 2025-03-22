@@ -1,0 +1,74 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Import modern font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('your-image-url.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Navigation */
+nav a {
+    color: #4CAF50;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+/* Main content section */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile responsive design */
+@media (max-width: 600px) {
+    body {
+        font-size: 1em;
+    }
+
+    header {
+        font-size: 1.5em;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
